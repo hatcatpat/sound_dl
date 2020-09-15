@@ -1,0 +1,1 @@
+g++ -Wall -D__UNIX_JACK__ -o main main.cpp RtAudio.cpp -lpthread -ljack -lstdc++ -ldl -lrt -lm

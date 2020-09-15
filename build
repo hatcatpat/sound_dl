@@ -1,0 +1,12 @@
+#!/bin/bash
+
+api=$1;
+file=$2;
+
+./build_audio.sh $2 &&
+
+if [ "$api" = "jack" ]; then
+    ./build_jack.sh
+else
+    ./build_alsa.sh
+fi

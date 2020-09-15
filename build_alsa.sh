@@ -1,0 +1,1 @@
+g++ -g -fno-gnu-unique -Wall -D__LINUX_ALSA__ -o main main.cpp RtAudio.cpp -lasound -lpthread -lstdc++ -ldl -lrt -lm
